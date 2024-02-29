@@ -1,106 +1,134 @@
-```+ New Data Structure system thus meaning features like fairy souls dont need to be reset as they are tracked per profile
-+ Profile Swap Detection
-+ Quiver Display Revamp
- = Shows only amount of currently selected arrow
- = Can choose to show name of arrow
- = Low Arrow Warning (if arrows < 128)
- = Accounts for infinite quiver
-= Swap to decimals inside of Minion Overlay
-+ Cooldown Tracker Revamp
- = Accounts for mage cooldown reduction in dungeons
- = Uses decimals
- = More Accurate
- = Cooldown Visualizations like slot background and customizable bar
-+ Message sent after updating the mod, hover for changelogs
-+ /colortest command (command for developer mode to test colors)
-- Remove butterfly highlight as not needed (cuz bestiary tracker)
-- Stopped using proxy for jerry mayor checck
-= Client now sends  mod version to server
-= Swapped many behind the scenes features to use new data structure
- = Gift Tracker
- = Fairy And Enigma Souls
- = Collected Minion stats
- = Quiver Display
-- Removed Show Extra Profile Info (skycrypt is 😵)
-= Added Commas to defense, health, mana, effective health
-= Health Display now accounts for absorption 
-+ Health Bar (Shows absorption, and health)
-+ Mana Bar (Adjusts depending on mana and overflow mana)
+# Skyblock-Extras
+**Latest version of sbe**
 
+## GUI Screenshot
+![Screenshot](https://cdn.discordapp.com/attachments/980371346670374932/1206139903654760508/image.png?ex=65daec52&is=65c87752&hm=609a46e0a169986b8cd0a69b38da30fb5b0e0c3006dd76a17520edde7cb7dfb4&)
 
-= Remade auction flipper to have cleaner code
-+ Added Item Estimation into auction flipper
-+ Bestiary Tracker (Highlight Selected Bestiary Mobs, Slot marking for mobs, middle clicking for mobs)
-+ Added back dungeons tab inside /pv (skycrypt api -> soopy v2 api)
-+ Added runes into estimated item prices
-+ Added Rift Larva Silk Display
-+ Added Final Destination armor overlay
-+ Added Salvage protection (protects items based off of estimated item value)
-+ Added color option to tp pad solver
-+ Added Hide Anita Artifact notification
-+ Added butterfly highlight for fairy grotto
+### Frequently Asked Questions
 
-= Setup default positions for good amount of ui elements
-= Stopped using proxy for collections, npc prices, bazaar prices
+Does SBE steal code from other mods?
+No, Skyblock Extras does not steal code from any other mods. Here's a list of mods it's often accused of stealing from and why it's not true:
+- DSM: Implemented the TicTacToe solver based on a website. Likely similar to DSM.
+- SBC: MIT Licensed with different cosmetic code and acquirement methods.
+- Patcher: Constant values taken directly from game versions, code is different.
+- NEU: Custom skull re-texturing functionalities are different.
+- Crash Debugging: Implemented in a standard way.
 
+Is SBE Against the EULA?
+No, selling mods is not prohibited by the Minecraft EULA. Commercial Guidelines specify allowed commercial activities, including selling mods.
 
-+ Added keybinds to config
-+ Added keybind setting to toggle Auction Flipper
-+ Added keybind setting to reload Party Finder
-+ Added keybind setting to open best flip inside Auction Flipper
-+ Added Show Last Collected above minion
-+ SBF Webhook
-+ Added toggle for auction flipper sounds
-+ Setup Auction Flipper to use webhook so its faster, and more organized, pushes out events to all clients rather than each client checking each time for the auction flipper
-+ Added switch to toggle visibility of active elements and all elements inside of edit locations gui
+### Features
 
+General:
+- Edit Gui
+- Make all Elements Default
+- Make all Elements Shadowed
+- Gui Display
+- Show Only in Skyblock
+- Edit Menu Theme
+- Show Error Messages
 
-+ Added polar void, silex, art of war, book of stats, drill parts into Estimated Item Value
-+ Customizable Sidebar
- = Remove Background, Hide Red Numbers, Draw Text With Shadow, Remove Hypixel
-+ F3/M3 Fire freeze timer remake (@BabyGetSwekt)
-= /terminal <1-4>, meaning you can select specific terminal
-+ Click in order terminal solver
-+ Workflow, Gradle, java version improvements @KobeniSilly
-+ Better Trading Feature
- = use /trade instead of /accepttrade, hide trade expired
-+ Essence options into dungeon chest profit feature
-+ Highlight Auctions Status
- = highlights auctions if outbid, claimable, currently winning, etc
+Cosmetics:
+- Custom Color Names
+- Show Own Custom Color
+- Show Particle Cosmetics
+- Show Particles in First Person
 
-= Better descriptions inside of installer frame
-= Treecap Cooldown now has decimals and is more exact
-= Remake of entire mixin system to be cleaner, more organized, and to not completly break Skyhanni Glow
+- Commands
+- Customize Custom Commands
+- Show Networth in Player Cmd
 
-- Stop cancelling sound event for quiver display
-- Removed unused parameter from config file
+WIP
+- Revert Master Stars
+- Color Blaze Slayer Mobs
+- Blaze Pillar Warning
+- Show Attunement Display
+- ...
 
-+ Trash highlighter revamp
-+ New Custom Config System
-+ Installer frame (installs into mods folder if run)
-+ Developer mode remembers option
-+ Add Reset color option to any color settings
-+ Added colors to burrows depending on type
- = Options to change all the different Mythological colors
- 
- 
- + Added 'Cleaner Action Bar'
- = Options for hiding overflow mana, health, mana, secrets, defense
-+ Mythological Event Feature Revamps (better waypoints)
-+ Added wither scroll prices, book of stats, art of war to item price estimation
+Notifications
+- Copy Rare Fishes
+- Announce Rare Drops
+- Copy Rare Drops
+- Dark Auction Warning
+- ...
 
-- Removed unused mixin (fixed a lot of compatability issues)
+Miscellaneous
+- Timestamps
+- Show Milestones
+- Show NPC Sell Price
+- Show Auction Data
+- Show Auction Data Everywhere
+- ...
 
-+ Item Estimation now counts drill parts
-+ new message for successful update with option to close game
+Experimentation
+- Experimentation Helper
+- First Experimentation Color
+- Second Experimentation Color
+- Third Experimentation Color
+- ...
 
-- Remove autoclose Minecraft after update
+Rarity Colors
+- Render Item Rarities
+- Render Rarities Everywhere
+- Render Rarities In Hotbar
+- Rarity Color Alpha
+- Rarity Type
+- ...
 
-+ Client side caching of API requests
-+ Glowing Slayers & Minibosses
-+ Glowing Voidgloom depending on stage
-+ Fire Veil Timer
-+ Fire Freeze Timer (Floor 3)
-+ Dropdowns for features with options
+Dwarven Mines
+- Show Mine Map
+- Notify Events
+- Mute Wind Changes
+- Raffle Time Warning
+- Gourmand Time Warning
+- ...
 
-- Remove arrows after burrow dug```
+Crystal Hollows
+- Show Hollows Map
+- Show Enabled / Disabled Perks
+- Show Blocks Walked
+- Show Gemstone Buffs
+- ...
+
+Spider's Den
+- Show Spider Den Waypoints
+- Edit Den Waypoints
+- Reset Den Waypoints
+- Show Arachne HP
+- Show Arachne Counter
+- ...
+
+Farming Island
+- Treasure Hunter Solver
+
+End Island
+- Show Soul Flow Display
+- Show Final Destination Display
+- Show Excess Mana
+- Merge Excess Mana
+- ...
+
+Etherwarp Display
+- LOS Etherwarp Location
+- Etherwarp Targeted Block
+- Display Unuseable Blocks
+
+Trackers
+General
+- Start Session
+- Stop Session
+
+Slayer
+- Show Slayer Counter
+- Edit Slayer Counter
+- Auto Select Slayer
+- Reset Counter on Restart
+- ...
+
+Fishing
+- Show Fishing Counter
+- Show General Counter
+- Toggle Winter Counter
+- Toggle Shark Counter
+- ...
+etc.
