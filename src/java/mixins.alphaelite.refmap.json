@@ -1,0 +1,520 @@
+{
+  "mappings": {
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+      "mouseClicked": "Lnet/minecraft/client/gui/GuiChat;func_73864_a(III)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIlllIlIllIIIlIIlIIIIlllIIlIIIIIlllIIlllIlIllIIIIIllIIIlllIIIIlIIllllIIllllII": {
+      "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146285_a(Lnet/minecraft/item/ItemStack;II)V",
+      "initGui()V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73866_w_()V",
+      "drawSlot": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146977_a(Lnet/minecraft/inventory/Slot;)V",
+      "net/minecraft/client/gui/GuiScreen.drawScreen(IIF)V": "Lnet/minecraft/client/gui/GuiScreen;func_73863_a(IIF)V",
+      "keyTyped(CI)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73869_a(CI)V",
+      "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V",
+      "drawScreen(IIF)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+      "mouseClicked(III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73864_a(III)V",
+      "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+      "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemOverlayIntoGUI(Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180453_a(Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V",
+      "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146984_a(Lnet/minecraft/inventory/Slot;III)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllIIIlIIIllIIIlIIlIIllIlllllIlIllIIIlIllllIIIlIllIIllIllllIIIllllIIIlII": {
+      "net/minecraft/client/renderer/GlStateManager.scale(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179152_a(FFF)V",
+      "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180454_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V",
+      "renderItemIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_175042_a(Lnet/minecraft/item/ItemStack;II)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIIIIlllIlIlIllIIlIIIlIIllllllIlIllIIllIIlIIIllllIlIIIIlIIlIlllIlIIIII": {
+      "doRenderLayer": "Lnet/minecraft/client/renderer/entity/layers/LayerArmorBase;func_177141_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+      "Lnet/minecraft/client/entity/EntityPlayerSP;swingItem()V": "Lnet/minecraft/client/entity/EntityPlayerSP;func_71038_i()V",
+      "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+      "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+      "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+      "guiLeft": "field_147003_i:I",
+      "handleMouseClick": "func_146984_a(Lnet/minecraft/inventory/Slot;III)V",
+      "ySize": "field_147000_g:I",
+      "xSize": "field_146999_f:I",
+      "guiTop": "field_147009_r:I"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+      "setBlockState(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z": "Lnet/minecraft/world/World;func_180501_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+      "net.minecraft.client.gui.MapItemRenderer$Instance": "net/minecraft/client/gui/MapItemRenderer$Instance",
+      "render(Z)V": "Lnet/minecraft/client/gui/MapItemRenderer$Instance;func_148237_a(Z)V",
+      "net/minecraft/client/renderer/GlStateManager.translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+      "playSound": "Lnet/minecraft/client/audio/SoundManager;func_148611_c(Lnet/minecraft/client/audio/ISound;)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIlllIIIIIlIIIIIllIlIIlIlIllIIlllllIIlIlIlIlIllIllIIlIIlIlIIlIIlIIllIIIIlllll": {
+      "renderHotbarItem": "Lnet/minecraft/client/gui/GuiIngame;func_175184_a(IIIFLnet/minecraft/entity/player/EntityPlayer;)V",
+      "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+      "doRenderLayer": "Lnet/minecraft/client/renderer/entity/layers/LayerCustomHead;func_177141_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+      "particleTypes": "field_178932_g:Ljava/util/Map;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIIlIllllllllIllIIIIIlIllllllllIIllIIlIIlllllIIIlIIllIIIIIlIlIIIIIIII": {
+      "renderString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_180455_b(Ljava/lang/String;FFIZ)I"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIllIlllIlllIIllIIlllllllIllllllIIllIlIIIIlllIlIlIlllIIlIIlIIllIIllIll": {
+      "getColorMultiplier": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77030_a(Lnet/minecraft/entity/EntityLivingBase;FF)I"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIIlllIllIlllIlllllllIIlIlIIIIlIIllIIIlllIlIlIlIlIIIllIlIIIllllllIIIlIIll": {
+      "doRender": "Lnet/minecraft/client/renderer/entity/RenderLightningBolt;func_76986_a(Lnet/minecraft/entity/effect/EntityLightningBolt;DDDFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+      "addBlockHitEffects(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)V": "Lnet/minecraft/client/particle/EffectRenderer;func_180532_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)V",
+      "addBlockDestroyEffects": "Lnet/minecraft/client/particle/EffectRenderer;func_180533_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)V",
+      "spawnEffectParticle": "Lnet/minecraft/client/particle/EffectRenderer;func_178927_a(IDDDDDD[I)Lnet/minecraft/client/particle/EntityFX;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIllllllIIlIlIIlIIIIllIlIIllllIllIIlIllIIllIIllIlIIlIIIIlIlllIlIIlIIllIlIIIIll": {
+      "handleStatusUpdate": "Lnet/minecraft/entity/EntityLivingBase;func_70103_a(B)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+      "Lnet/minecraft/crash/CrashReport;getCauseStackTraceOrString()Ljava/lang/String;": "Lnet/minecraft/crash/CrashReport;func_71498_d()Ljava/lang/String;",
+      "getCompleteReport": "Lnet/minecraft/crash/CrashReport;func_71502_e()Ljava/lang/String;",
+      "getCauseStackTraceOrString": "Lnet/minecraft/crash/CrashReport;func_71498_d()Ljava/lang/String;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+      "isItemEnchanted()Z": "Lnet/minecraft/item/ItemStack;func_77948_v()Z",
+      "getTooltip(Lnet/minecraft/entity/player/EntityPlayer;Z)Ljava/util/List;": "Lnet/minecraft/item/ItemStack;func_82840_a(Lnet/minecraft/entity/player/EntityPlayer;Z)Ljava/util/List;",
+      "getDisplayName": "Lnet/minecraft/item/ItemStack;func_82833_r()Ljava/lang/String;",
+      "getTagCompound": "Lnet/minecraft/item/ItemStack;func_77978_p()Lnet/minecraft/nbt/NBTTagCompound;",
+      "isItemDamaged": "Lnet/minecraft/item/ItemStack;func_77951_h()Z"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+      "onPlayerDestroyBlock(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)Z": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_178888_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)Z"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+      "addToSendQueue": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147297_a(Lnet/minecraft/network/Packet;)V",
+      "handleSpawnMob": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147281_a(Lnet/minecraft/network/play/server/S0FPacketSpawnMob;)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+      "getColor": "Lnet/minecraft/item/ItemArmor;func_82814_b(Lnet/minecraft/item/ItemStack;)I"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+      "renderParticle": "Lnet/minecraft/client/particle/EntityFootStepFX;func_180434_a(Lnet/minecraft/client/renderer/WorldRenderer;Lnet/minecraft/entity/Entity;FFFFFF)V",
+      "Lnet/minecraft/client/renderer/Tessellator;draw()V": "Lnet/minecraft/client/renderer/Tessellator;func_78381_a()V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+      "hurtCameraEffect": "Lnet/minecraft/client/renderer/EntityRenderer;func_78482_e(F)V",
+      "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+      "getSelectedBoundingBox(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Lnet/minecraft/util/AxisAlignedBB;": "Lnet/minecraft/block/Block;func_180646_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Lnet/minecraft/util/AxisAlignedBB;",
+      "collisionRayTrace(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;": "Lnet/minecraft/block/Block;func_180636_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllllllIIIlIIIlIIIlIllllIIIIIlIIIlIIIIlIlIlIlIIlIlIIIIllIIIIlIIIIIllllII": {
+      "drawGuiContainerForegroundLayer(II)V": "Lnet/minecraft/client/gui/inventory/GuiChest;func_146979_b(II)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIllIlIlIllllIIIIIIlIlIlIIIIIlIlIllIllIIIIIIlIIlIlllIIIllIllIIIIIlIIllIII": {
+      "getEntityTexture(Lnet/minecraft/entity/monster/EntityBlaze;)Lnet/minecraft/util/ResourceLocation;": "Lnet/minecraft/client/renderer/entity/RenderBlaze;func_110775_a(Lnet/minecraft/entity/monster/EntityBlaze;)Lnet/minecraft/util/ResourceLocation;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllllllIllIlIIIlIIlIIIllllIIllIllllIlllIIIlIIllIIlIIIIlllIlIllIlIIlllIIIIIlI": {
+      "render(Lnet/minecraft/entity/Entity;FFFFFF)V": "Lnet/minecraft/client/model/ModelBlaze;func_78088_a(Lnet/minecraft/entity/Entity;FFFFFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+      "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146285_a(Lnet/minecraft/item/ItemStack;II)V",
+      "initGui()V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73866_w_()V",
+      "drawSlot": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146977_a(Lnet/minecraft/inventory/Slot;)V",
+      "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V",
+      "drawScreen(IIF)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+      "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+      "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146984_a(Lnet/minecraft/inventory/Slot;III)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+      "chatLines": "field_146252_h:Ljava/util/List;"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIIIlIIIIIIlIlllIllIIlllllIlIlIlIlIIIllIllIlIlIIIIlllIllIIllIllIllIlIIlIIIIIlI": {
+      "renderShadow": "Lnet/minecraft/client/renderer/entity/Render;func_76975_c(Lnet/minecraft/entity/Entity;DDDFF)V",
+      "renderEntityOnFire": "Lnet/minecraft/client/renderer/entity/Render;func_76977_a(Lnet/minecraft/entity/Entity;DDDF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+      "setKeyBindState": "Lnet/minecraft/client/settings/KeyBinding;func_74510_a(IZ)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIlIIIlIllIIlIIIIIlllIIIIIIIIIllllIlIIIIlIIIlIIIllIlIlIlIllIIIIIIlIlIll": {
+      "setBossStatus": "Lnet/minecraft/entity/boss/BossStatus;func_82824_a(Lnet/minecraft/entity/boss/IBossDisplayData;Z)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIllllIIlIllllIIllIIllIlllIIIlIIIlIlIIllIIIlIIlllllIlIIIlIlIllllllllIIl": {
+      "render": "Lnet/minecraft/client/model/ModelIronGolem;func_78088_a(Lnet/minecraft/entity/Entity;FFFFFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlIlIllIllIlIlIlIlIlIIIIlIIIlIIllIIIIIlIIlIlllIIIlIIlIllIllIlIIIIlllllIlIll": {
+      "Lnet/minecraft/client/renderer/entity/RenderGuardian;bindTexture(Lnet/minecraft/util/ResourceLocation;)V": "Lnet/minecraft/client/renderer/entity/RenderGuardian;func_110776_a(Lnet/minecraft/util/ResourceLocation;)V",
+      "doRender": "Lnet/minecraft/client/renderer/entity/RenderGuardian;func_76986_a(Lnet/minecraft/entity/monster/EntityGuardian;DDDFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+      "particleMaxAge": "field_70547_e:I"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+      "renderTileEntityAt(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V": "Lnet/minecraft/client/renderer/tileentity/TileEntityChestRenderer;func_180535_a(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V",
+      "net/minecraft/client/renderer/GlStateManager.color(FFFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179131_c(FFFF)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+      "setCurrentItemOrArmor(ILnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/entity/player/EntityPlayer;func_70062_b(ILnet/minecraft/item/ItemStack;)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIIlllIIIIIIllIlIIllIIIIIlllIlllIIllIIllIIlllIllIlIlIlIIlIlllIlIIlIllll": {
+      "renderToolTip": "Lnet/minecraft/client/gui/GuiScreen;func_146285_a(Lnet/minecraft/item/ItemStack;II)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+      "sendBlockBreakProgress": "Lnet/minecraft/client/renderer/RenderGlobal;func_180441_b(ILnet/minecraft/util/BlockPos;I)V"
+    },
+    "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIIlllllllllIlIIIIIlIllIllIlllIIllIIIlIllllIlllIlIIIlIllIllIIllIllIIIIlIllIll": {
+      "net/minecraft/client/renderer/GlStateManager.pushMatrix()V": "Lnet/minecraft/client/renderer/GlStateManager;func_179094_E()V",
+      "doRender(Lnet/minecraft/entity/item/EntityItem;DDDFF)V": "Lnet/minecraft/client/renderer/entity/RenderEntityItem;func_76986_a(Lnet/minecraft/entity/item/EntityItem;DDDFF)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "mouseClicked": "Lawv;a(III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIlllIlIllIIIlIIlIIIIlllIIlIIIIIlllIIlllIlIllIIIIIllIIIlllIIIIlIIllllIIllllII": {
+        "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Layl;a(Lzx;II)V",
+        "initGui()V": "Layl;b()V",
+        "drawSlot": "Layl;a(Lyg;)V",
+        "net/minecraft/client/gui/GuiScreen.drawScreen(IIF)V": "Laxu;a(IIF)V",
+        "keyTyped(CI)V": "Layl;a(CI)V",
+        "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lbjh;b(Lzx;II)V",
+        "drawScreen(IIF)V": "Layl;a(IIF)V",
+        "mouseClicked(III)V": "Layl;a(III)V",
+        "drawScreen": "Layl;a(IIF)V",
+        "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemOverlayIntoGUI(Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V": "Lbjh;a(Lavn;Lzx;IILjava/lang/String;)V",
+        "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Layl;a(Lyg;III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllIIIlIIIllIIIlIIlIIllIlllllIlIllIIIlIllllIIIlIllIIllIllllIIIllllIIIlII": {
+        "net/minecraft/client/renderer/GlStateManager.scale(FFF)V": "Lbfl;a(FFF)V",
+        "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V": "Lbjh;a(Lzx;Lboq;)V",
+        "renderItemIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lbjh;a(Lzx;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIIIIlllIlIlIllIIlIIIlIIllllllIlIllIIllIIlIIIllllIlIIIIlIIlIlllIlIIIII": {
+        "doRenderLayer": "Lbkn;a(Lpr;FFFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "Lnet/minecraft/client/entity/EntityPlayerSP;swingItem()V": "Lbew;bw()V",
+        "middleClickMouse": "Lave;az()V",
+        "clickMouse": "Lave;aw()V",
+        "displayGuiScreen": "Lave;a(Laxu;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "guiLeft": "i:I",
+        "handleMouseClick": "a(Lyg;III)V",
+        "ySize": "g:I",
+        "xSize": "f:I",
+        "guiTop": "r:I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "setBlockState(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z": "Ladm;a(Lcj;Lalz;I)Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+        "net.minecraft.client.gui.MapItemRenderer$Instance": "avq$a",
+        "render(Z)V": "Lavq$a;a(Z)V",
+        "net/minecraft/client/renderer/GlStateManager.translate(FFF)V": "Lbfl;b(FFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "playSound": "Lbpx;c(Lbpj;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIlllIIIIIlIIIIIllIlIIlIlIllIIlllllIIlIlIlIlIllIllIIlIIlIlIIlIIlIIllIIIIlllll": {
+        "renderHotbarItem": "Lavo;a(IIIFLwn;)V",
+        "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lbjh;b(Lzx;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "doRenderLayer": "Lbks;a(Lpr;FFFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "particleTypes": "g:Ljava/util/Map;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIIlIllllllllIllIIIIIlIllllllllIIllIIlIIlllllIIIlIIllIIIIIlIlIIIIIIII": {
+        "renderString(Ljava/lang/String;FFIZ)I": "Lavn;b(Ljava/lang/String;FFIZ)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIllIlllIlllIIllIIlllllllIllllllIIllIlIIIIlllIlIlIlllIIlIIlIIllIIllIll": {
+        "getColorMultiplier": "Lbjl;a(Lpr;FF)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIIlllIllIlllIlllllllIIlIlIIIIlIIllIIIlllIlIlIlIlIIIllIlIIIllllllIIIlIIll": {
+        "doRender": "Lbjk;a(Luv;DDDFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+        "addBlockHitEffects(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)V": "Lbec;a(Lcj;Lcq;)V",
+        "addBlockDestroyEffects": "Lbec;a(Lcj;Lalz;)V",
+        "spawnEffectParticle": "Lbec;a(IDDDDDD[I)Lbeb;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIllllllIIlIlIIlIIIIllIlIIllllIllIIlIllIIllIIllIlIIlIIIIlIlllIlIIlIIllIlIIIIll": {
+        "handleStatusUpdate": "Lpr;a(B)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "Lnet/minecraft/crash/CrashReport;getCauseStackTraceOrString()Ljava/lang/String;": "Lb;d()Ljava/lang/String;",
+        "getCompleteReport": "Lb;e()Ljava/lang/String;",
+        "getCauseStackTraceOrString": "Lb;d()Ljava/lang/String;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "isItemEnchanted()Z": "Lzx;w()Z",
+        "getTooltip(Lnet/minecraft/entity/player/EntityPlayer;Z)Ljava/util/List;": "Lzx;a(Lwn;Z)Ljava/util/List;",
+        "getDisplayName": "Lzx;q()Ljava/lang/String;",
+        "getTagCompound": "Lzx;o()Ldn;",
+        "isItemDamaged": "Lzx;g()Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "onPlayerDestroyBlock(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)Z": "Lbda;a(Lcj;Lcq;)Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "addToSendQueue": "Lbcy;a(Lff;)V",
+        "handleSpawnMob": "Lbcy;a(Lfn;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "getColor": "Lyj;b(Lzx;)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "renderParticle": "Lbds;a(Lbfd;Lpk;FFFFFF)V",
+        "Lnet/minecraft/client/renderer/Tessellator;draw()V": "Lbfx;b()V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "hurtCameraEffect": "Lbfk;d(F)V",
+        "getMouseOver": "Lbfk;a(F)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+        "getSelectedBoundingBox(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Lnet/minecraft/util/AxisAlignedBB;": "Lafh;b(Ladm;Lcj;)Laug;",
+        "collisionRayTrace(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;": "Lafh;a(Ladm;Lcj;Laui;Laui;)Lauh;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllllllIIIlIIIlIIIlIllllIIIIIlIIIlIIIIlIlIlIlIIlIlIIIIllIIIIlIIIIIllllII": {
+        "drawGuiContainerForegroundLayer(II)V": "Layr;b(II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIllIlIlIllllIIIIIIlIlIlIIIIIlIlIllIllIIIIIIlIIlIlllIIIllIllIIIIIlIIllIII": {
+        "getEntityTexture(Lnet/minecraft/entity/monster/EntityBlaze;)Lnet/minecraft/util/ResourceLocation;": "Lbij;a(Lvl;)Ljy;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllllllIllIlIIIlIIlIIIllllIIllIllllIlllIIIlIIllIIlIIIIlllIlIllIlIIlllIIIIIlI": {
+        "render(Lnet/minecraft/entity/Entity;FFFFFF)V": "Lbaw;a(Lpk;FFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+        "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Layl;a(Lzx;II)V",
+        "initGui()V": "Layl;b()V",
+        "drawSlot": "Layl;a(Lyg;)V",
+        "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lbjh;b(Lzx;II)V",
+        "drawScreen(IIF)V": "Layl;a(IIF)V",
+        "drawScreen": "Layl;a(IIF)V",
+        "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Layl;a(Lyg;III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "chatLines": "h:Ljava/util/List;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "channelRead0": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIIIlIIIIIIlIlllIllIIlllllIlIlIlIlIIIllIllIlIlIIIIlllIllIIllIllIllIlIIlIIIIIlI": {
+        "renderShadow": "Lbiv;c(Lpk;DDDFF)V",
+        "renderEntityOnFire": "Lbiv;a(Lpk;DDDF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "setKeyBindState": "Lavb;a(IZ)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIlIIIlIllIIlIIIIIlllIIIIIIIIIllllIlIIIIlIIIlIIIllIlIlIlIllIIIIIIlIlIll": {
+        "setBossStatus": "Lbfc;a(Luc;Z)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIllllIIlIllllIIllIIllIlllIIIlIIIlIlIIllIIIlIIlllllIlIIIlIlIllllllllIIl": {
+        "render": "Lbch;a(Lpk;FFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlIlIllIllIlIlIlIlIlIIIIlIIIlIIllIIIIIlIIlIlllIIIlIIlIllIllIlIIIIlllllIlIll": {
+        "Lnet/minecraft/client/renderer/entity/RenderGuardian;bindTexture(Lnet/minecraft/util/ResourceLocation;)V": "Lbjc;a(Ljy;)V",
+        "doRender": "Lbjc;a(Lvt;DDDFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "particleMaxAge": "g:I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "renderTileEntityAt(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V": "Lbhe;a(Laky;DDDFI)V",
+        "net/minecraft/client/renderer/GlStateManager.color(FFFF)V": "Lbfl;c(FFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "setCurrentItemOrArmor(ILnet/minecraft/item/ItemStack;)V": "Lwn;c(ILzx;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIIlllIIIIIIllIlIIllIIIIIlllIlllIIllIIllIIlllIllIlIlIlIIlIlllIlIIlIllll": {
+        "renderToolTip": "Laxu;a(Lzx;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "sendBlockBreakProgress": "Lbfr;b(ILcj;I)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIIlllllllllIlIIIIIlIllIllIlllIIllIIIlIllllIlllIlIIIlIllIllIIllIllIIIIlIllIll": {
+        "net/minecraft/client/renderer/GlStateManager.pushMatrix()V": "Lbfl;E()V",
+        "doRender(Lnet/minecraft/entity/item/EntityItem;DDDFF)V": "Lbjf;a(Luz;DDDFF)V"
+      }
+    },
+    "searge": {
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "mouseClicked": "Lnet/minecraft/client/gui/GuiChat;func_73864_a(III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIlllIlIllIIIlIIlIIIIlllIIlIIIIIlllIIlllIlIllIIIIIllIIIlllIIIIlIIllllIIllllII": {
+        "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146285_a(Lnet/minecraft/item/ItemStack;II)V",
+        "initGui()V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73866_w_()V",
+        "drawSlot": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146977_a(Lnet/minecraft/inventory/Slot;)V",
+        "net/minecraft/client/gui/GuiScreen.drawScreen(IIF)V": "Lnet/minecraft/client/gui/GuiScreen;func_73863_a(IIF)V",
+        "keyTyped(CI)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73869_a(CI)V",
+        "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V",
+        "drawScreen(IIF)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+        "mouseClicked(III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73864_a(III)V",
+        "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+        "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemOverlayIntoGUI(Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180453_a(Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V",
+        "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146984_a(Lnet/minecraft/inventory/Slot;III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllIIIlIIIllIIIlIIlIIllIlllllIlIllIIIlIllllIIIlIllIIllIllllIIIllllIIIlII": {
+        "net/minecraft/client/renderer/GlStateManager.scale(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179152_a(FFF)V",
+        "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180454_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V",
+        "renderItemIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_175042_a(Lnet/minecraft/item/ItemStack;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIIIIlllIlIlIllIIlIIIlIIllllllIlIllIIllIIlIIIllllIlIIIIlIIlIlllIlIIIII": {
+        "doRenderLayer": "Lnet/minecraft/client/renderer/entity/layers/LayerArmorBase;func_177141_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "Lnet/minecraft/client/entity/EntityPlayerSP;swingItem()V": "Lnet/minecraft/client/entity/EntityPlayerSP;func_71038_i()V",
+        "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "guiLeft": "field_147003_i:I",
+        "handleMouseClick": "func_146984_a(Lnet/minecraft/inventory/Slot;III)V",
+        "ySize": "field_147000_g:I",
+        "xSize": "field_146999_f:I",
+        "guiTop": "field_147009_r:I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "setBlockState(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z": "Lnet/minecraft/world/World;func_180501_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+        "net.minecraft.client.gui.MapItemRenderer$Instance": "net/minecraft/client/gui/MapItemRenderer$Instance",
+        "render(Z)V": "Lnet/minecraft/client/gui/MapItemRenderer$Instance;func_148237_a(Z)V",
+        "net/minecraft/client/renderer/GlStateManager.translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "playSound": "Lnet/minecraft/client/audio/SoundManager;func_148611_c(Lnet/minecraft/client/audio/ISound;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIlllIIIIIlIIIIIllIlIIlIlIllIIlllllIIlIlIlIlIllIllIIlIIlIlIIlIIlIIllIIIIlllll": {
+        "renderHotbarItem": "Lnet/minecraft/client/gui/GuiIngame;func_175184_a(IIIFLnet/minecraft/entity/player/EntityPlayer;)V",
+        "Lnet/minecraft/client/renderer/entity/RenderItem;renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "doRenderLayer": "Lnet/minecraft/client/renderer/entity/layers/LayerCustomHead;func_177141_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "particleTypes": "field_178932_g:Ljava/util/Map;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIIlIllllllllIllIIIIIlIllllllllIIllIIlIIlllllIIIlIIllIIIIIlIlIIIIIIII": {
+        "renderString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_180455_b(Ljava/lang/String;FFIZ)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIIIlIllIlllIlllIIllIIlllllllIllllllIIllIlIIIIlllIlIlIlllIIlIIlIIllIIllIll": {
+        "getColorMultiplier": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77030_a(Lnet/minecraft/entity/EntityLivingBase;FF)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIIlllIllIlllIlllllllIIlIlIIIIlIIllIIIlllIlIlIlIlIIIllIlIIIllllllIIIlIIll": {
+        "doRender": "Lnet/minecraft/client/renderer/entity/RenderLightningBolt;func_76986_a(Lnet/minecraft/entity/effect/EntityLightningBolt;DDDFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+        "addBlockHitEffects(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)V": "Lnet/minecraft/client/particle/EffectRenderer;func_180532_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)V",
+        "addBlockDestroyEffects": "Lnet/minecraft/client/particle/EffectRenderer;func_180533_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)V",
+        "spawnEffectParticle": "Lnet/minecraft/client/particle/EffectRenderer;func_178927_a(IDDDDDD[I)Lnet/minecraft/client/particle/EntityFX;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIllllllIIlIlIIlIIIIllIlIIllllIllIIlIllIIllIIllIlIIlIIIIlIlllIlIIlIIllIlIIIIll": {
+        "handleStatusUpdate": "Lnet/minecraft/entity/EntityLivingBase;func_70103_a(B)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "Lnet/minecraft/crash/CrashReport;getCauseStackTraceOrString()Ljava/lang/String;": "Lnet/minecraft/crash/CrashReport;func_71498_d()Ljava/lang/String;",
+        "getCompleteReport": "Lnet/minecraft/crash/CrashReport;func_71502_e()Ljava/lang/String;",
+        "getCauseStackTraceOrString": "Lnet/minecraft/crash/CrashReport;func_71498_d()Ljava/lang/String;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "isItemEnchanted()Z": "Lnet/minecraft/item/ItemStack;func_77948_v()Z",
+        "getTooltip(Lnet/minecraft/entity/player/EntityPlayer;Z)Ljava/util/List;": "Lnet/minecraft/item/ItemStack;func_82840_a(Lnet/minecraft/entity/player/EntityPlayer;Z)Ljava/util/List;",
+        "getDisplayName": "Lnet/minecraft/item/ItemStack;func_82833_r()Ljava/lang/String;",
+        "getTagCompound": "Lnet/minecraft/item/ItemStack;func_77978_p()Lnet/minecraft/nbt/NBTTagCompound;",
+        "isItemDamaged": "Lnet/minecraft/item/ItemStack;func_77951_h()Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "onPlayerDestroyBlock(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)Z": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_178888_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;)Z"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "addToSendQueue": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147297_a(Lnet/minecraft/network/Packet;)V",
+        "handleSpawnMob": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147281_a(Lnet/minecraft/network/play/server/S0FPacketSpawnMob;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "getColor": "Lnet/minecraft/item/ItemArmor;func_82814_b(Lnet/minecraft/item/ItemStack;)I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "renderParticle": "Lnet/minecraft/client/particle/EntityFootStepFX;func_180434_a(Lnet/minecraft/client/renderer/WorldRenderer;Lnet/minecraft/entity/Entity;FFFFFF)V",
+        "Lnet/minecraft/client/renderer/Tessellator;draw()V": "Lnet/minecraft/client/renderer/Tessellator;func_78381_a()V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "hurtCameraEffect": "Lnet/minecraft/client/renderer/EntityRenderer;func_78482_e(F)V",
+        "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/lIlllllIIlIllllIllllIllIllllIllIlIIlllIIllIIIIllIlIIllllIllllIIlIlIllIllIlI": {
+        "getSelectedBoundingBox(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Lnet/minecraft/util/AxisAlignedBB;": "Lnet/minecraft/block/Block;func_180646_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Lnet/minecraft/util/AxisAlignedBB;",
+        "collisionRayTrace(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;": "Lnet/minecraft/block/Block;func_180636_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlllllllIIIlIIIlIIIlIllllIIIIIlIIIlIIIIlIlIlIlIIlIlIIIIllIIIIlIIIIIllllII": {
+        "drawGuiContainerForegroundLayer(II)V": "Lnet/minecraft/client/gui/inventory/GuiChest;func_146979_b(II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIllIlIlIllllIIIIIIlIlIlIIIIIlIlIllIllIIIIIIlIIlIlllIIIllIllIIIIIlIIllIII": {
+        "getEntityTexture(Lnet/minecraft/entity/monster/EntityBlaze;)Lnet/minecraft/util/ResourceLocation;": "Lnet/minecraft/client/renderer/entity/RenderBlaze;func_110775_a(Lnet/minecraft/entity/monster/EntityBlaze;)Lnet/minecraft/util/ResourceLocation;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllllllIllIlIIIlIIlIIIllllIIllIllllIlllIIIlIIllIIlIIIIlllIlIllIlIIlllIIIIIlI": {
+        "render(Lnet/minecraft/entity/Entity;FFFFFF)V": "Lnet/minecraft/client/model/ModelBlaze;func_78088_a(Lnet/minecraft/entity/Entity;FFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI": {
+        "Lnet/minecraft/client/gui/inventory/GuiContainer;renderToolTip(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146285_a(Lnet/minecraft/item/ItemStack;II)V",
+        "initGui()V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73866_w_()V",
+        "drawSlot": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146977_a(Lnet/minecraft/inventory/Slot;)V",
+        "net/minecraft/client/renderer/entity/RenderItem.renderItemAndEffectIntoGUI(Lnet/minecraft/item/ItemStack;II)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180450_b(Lnet/minecraft/item/ItemStack;II)V",
+        "drawScreen(IIF)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+        "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+        "handleMouseClick(Lnet/minecraft/inventory/Slot;III)V": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146984_a(Lnet/minecraft/inventory/Slot;III)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "chatLines": "field_146252_h:Ljava/util/List;"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll": {
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIIIlIIIIIIlIlllIllIIlllllIlIlIlIlIIIllIllIlIlIIIIlllIllIIllIllIllIlIIlIIIIIlI": {
+        "renderShadow": "Lnet/minecraft/client/renderer/entity/Render;func_76975_c(Lnet/minecraft/entity/Entity;DDDFF)V",
+        "renderEntityOnFire": "Lnet/minecraft/client/renderer/entity/Render;func_76977_a(Lnet/minecraft/entity/Entity;DDDF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "setKeyBindState": "Lnet/minecraft/client/settings/KeyBinding;func_74510_a(IZ)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlIIlIIIlIllIIlIIIIIlllIIIIIIIIIllllIlIIIIlIIIlIIIllIlIlIlIllIIIIIIlIlIll": {
+        "setBossStatus": "Lnet/minecraft/entity/boss/BossStatus;func_82824_a(Lnet/minecraft/entity/boss/IBossDisplayData;Z)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIIIllIllllIIlIllllIIllIIllIlllIIIlIIIlIlIIllIIIlIIlllllIlIIIlIlIllllllllIIl": {
+        "render": "Lnet/minecraft/client/model/ModelIronGolem;func_78088_a(Lnet/minecraft/entity/Entity;FFFFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/lIlIlIllIllIlIlIlIlIlIIIIlIIIlIIllIIIIIlIIlIlllIIIlIIlIllIllIlIIIIlllllIlIll": {
+        "Lnet/minecraft/client/renderer/entity/RenderGuardian;bindTexture(Lnet/minecraft/util/ResourceLocation;)V": "Lnet/minecraft/client/renderer/entity/RenderGuardian;func_110776_a(Lnet/minecraft/util/ResourceLocation;)V",
+        "doRender": "Lnet/minecraft/client/renderer/entity/RenderGuardian;func_76986_a(Lnet/minecraft/entity/monster/EntityGuardian;DDDFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IlIllIIIIlIIIlIlllllIlIIllllIllIIlIllIIIIIlIllIlIIllIIlIlIlIlIIIllIlIlIllllII": {
+        "particleMaxAge": "field_70547_e:I"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI": {
+        "renderTileEntityAt(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V": "Lnet/minecraft/client/renderer/tileentity/TileEntityChestRenderer;func_180535_a(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V",
+        "net/minecraft/client/renderer/GlStateManager.color(FFFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179131_c(FFFF)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IlllIIIllllllIllIlIlIllIllIlIIIlIIllIlllIIllllllllIlllIlllIIllIllllIIIIlIIIlI/IIIlllIIllIIllIIIlllllllIlIllIllllIlllIllllIIllIIllIIlIIIllIIlIIIlIIlIIlIII": {
+        "setCurrentItemOrArmor(ILnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/entity/player/EntityPlayer;func_70062_b(ILnet/minecraft/item/ItemStack;)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llIIlllIIIIIIllIlIIllIIIIIlllIlllIIllIIllIIlllIllIlIlIlIIlIlllIlIIlIllll": {
+        "renderToolTip": "Lnet/minecraft/client/gui/GuiScreen;func_146285_a(Lnet/minecraft/item/ItemStack;II)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII": {
+        "sendBlockBreakProgress": "Lnet/minecraft/client/renderer/RenderGlobal;func_180441_b(ILnet/minecraft/util/BlockPos;I)V"
+      },
+      "llllIllIllIlIIIlIIIlllIllIIlIlIIIlIIIlIlIIllIlllIIIlIllIIIlIIIIIlllIllIlII/IIIllIIIllllllIIlIlllIlIllIIIIllllIlIIlIIIIllIllIlIIllllIIIlIIIlllIIlIlIIlI/IIlIlllIlllllIlIllllIIIllIIllIIllIIIIIIlIIIllIlIIIIIlIlIIIlllIlIIlIlllIlllll/IIlIIlllllllllIlIIIIIlIllIllIlllIIllIIIlIllllIlllIlIIIlIllIllIIllIllIIIIlIllIll": {
+        "net/minecraft/client/renderer/GlStateManager.pushMatrix()V": "Lnet/minecraft/client/renderer/GlStateManager;func_179094_E()V",
+        "doRender(Lnet/minecraft/entity/item/EntityItem;DDDFF)V": "Lnet/minecraft/client/renderer/entity/RenderEntityItem;func_76986_a(Lnet/minecraft/entity/item/EntityItem;DDDFF)V"
+      }
+    }
+  }
+}

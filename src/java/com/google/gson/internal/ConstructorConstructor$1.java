@@ -1,0 +1,12 @@
+/* 1 */ package com.google.gson.internal;class ConstructorConstructor$1 implements ObjectConstructor<T> { public T construct() { return (T)typeCreator.createInstance(type); }
+/*   */ 
+/*   */   
+/*   */   final InstanceCreator val$typeCreator;
+/*   */   final Type val$type;
+/*   */   final ConstructorConstructor this$0; }
+
+
+/* Location:              C:\Users\nebul\Downloads\SkyblockExtras-2.1.10.1 (1).jar!\com\google\gson\internal\ConstructorConstructor$1.class
+ * Java compiler version: 5 (49.0)
+ * JD-Core Version:       1.1.3
+ */

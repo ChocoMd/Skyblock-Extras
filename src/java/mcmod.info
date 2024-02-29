@@ -1,0 +1,16 @@
+[
+{
+  "modid": "SkyblockExtras",
+  "name": "SkyblockExtras",
+  "description": "Additional mod for Hypixel Skyblock. Any Unauthorized Distribution of this mod without the express consent of AlphaElite is not allowed",
+  "version": "2.1.10.1",
+  "mcversion": "1.8.9",
+  "url": "https://skyblockextras.com",
+  "updateUrl": "",
+  "authorList": ["AlphaElite","ComplexOrigin"],
+  "credits": "Made by AlphaElite and ComplexOrigin",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
